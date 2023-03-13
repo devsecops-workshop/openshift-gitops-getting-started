@@ -19,7 +19,7 @@ spec:
       annotations: null
       from:
         kind: DockerImage
-        name: quay.io/nexus6/quarkus-func:latest
+        name: quay.io/nexus6/hello-microshift:1.0.0-SNAPSHOT
       importPolicy:
         insecure: true
       referencePolicy:
